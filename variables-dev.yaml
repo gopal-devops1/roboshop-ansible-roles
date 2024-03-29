@@ -7,4 +7,4 @@ USER_HOST: user-dev.devops1.website
 CART_HOST: cart-dev.devops1.website 
 SHIPPING_HOST: shipping-dev.devops1.website 
 PAYMENT_HOST: payment-dev.devops1.website 
-DISPATCH_HOST: dispatch-dev.devops1.website 
+DISPATCH_HOST: dispatch-dev.devops1.website

@@ -15,6 +15,11 @@
     state: restarted
     enabled: yes
 
+- name: Check if RabbitMQ user exists
+  shell: rabbitmqctl list_users | grep -w roboshop
+  ignore_errors: true
+  register: rabbitmq_user_check
+
 - name: create rabbitmq user
   ansible.builtin.command: rabbitmqctl add_user roboshop roboshop123
 
